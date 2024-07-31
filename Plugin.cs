@@ -58,6 +58,7 @@ namespace MiniRealisticAirways
                     Logger.LogInfo("esc_button found, " + esc_button.name);
                     windsock_ = esc_button.gameObject.AddComponent<WindSock>();
                     windsock_.windsock_ = esc_button;
+                    windsock_.windsock_.GetComponent<RectTransform>().pivot = new Vector2(0.5f, 0.5f);
                     windsock_.InitializeText();
 
                     // Borrow esc_button to bind event/weather manager.

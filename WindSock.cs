@@ -28,7 +28,7 @@ namespace MiniRealisticAirways
 
             text_.fontSize = 4f;
             text_.horizontalAlignment = HorizontalAlignmentOptions.Left;
-            text_.verticalAlignment = VerticalAlignmentOptions.Top;
+            text_.verticalAlignment = VerticalAlignmentOptions.Middle;
             text_.rectTransform.sizeDelta = new Vector2(2, 1);
 
             // make sorting layer of obj "Text"
